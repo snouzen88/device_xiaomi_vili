@@ -10,6 +10,25 @@ $(call inherit-product, device/xiaomi/vili/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# AxionAOSP flags
+AXION_CAMERA_REAR_INFO := 108,8,5
+AXION_CAMERA_FRONT_INFO := 16
+AXION_CPU_SMALL_CORES := 0,1,2,3
+AXION_CPU_BIG_CORES := 4,5,6,7
+AXION_MAINTAINER := snouzen88
+AXION_PROCESSOR := Snapdragon_888
+
+# bypass charging can be supported
+BYPASS_CHARGE_SUPPORTED := true
+
+# Targets
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_DISABLE_EPPE := false
+TARGET_DISABLE_LINEAGE_SDK := false
+TARGET_INCLUDE_VIPERFX := false
+TARGET_SUPPORTS_ADDOND := false
+TARGET_PREBUILT_BCR := true
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
