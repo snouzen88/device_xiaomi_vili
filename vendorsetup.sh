@@ -2,7 +2,7 @@ echo 'Cloning stuff needed to build for vili'
 
 # Device common
 echo 'Cloning common device tree'
-git clone https://github.com/snouzen88/device_xiaomi_sm8350-common.git -b lineage-22.2-wip device/xiaomi/sm8350-common
+git clone https://github.com/snouzen88/device_xiaomi_sm8350-common.git -b lineage-22.2 device/xiaomi/sm8350-common
 
 # Kernel
 echo 'Cloning kernel'
@@ -15,11 +15,11 @@ git clone https://github.com/blazerpaul15/hardware_xiaomi.git hardware/xiaomi
 
 # Vendor
 echo 'Cloning vendor tree'
-git clone https://github.com/snouzen88/vendor_xiaomi_vili.git -b lineage-22.2-wip vendor/xiaomi/vili
+git clone https://github.com/snouzen88/vendor_xiaomi_vili.git -b lineage-22.2 vendor/xiaomi/vili
 
 # Vendor common
 echo 'Cloning common vendor tree'
-git clone https://github.com/snouzen88/vendor_xiaomi_sm8350-common.git -b lineage-22.2-wip vendor/xiaomi/sm8350-common
+git clone https://github.com/snouzen88/vendor_xiaomi_sm8350-common.git -b lineage-22.2 vendor/xiaomi/sm8350-common
 
 # Meme camera
 echo 'Cloning meme camera'
