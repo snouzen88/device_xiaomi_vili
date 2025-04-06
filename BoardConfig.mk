@@ -1,4 +1,4 @@
-#
+    #
 # Copyright (C) 2021 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -14,6 +14,9 @@ TARGET_OTA_ASSERT_DEVICE := vili
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := vili
+
+#Display
+TARGET_SCREEN_DENSITY := 440
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
